@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Rizal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Rizal Travel Stories & Beyond</h1>
+
+    </section>
+
+<!------------- blog page content ------------>
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/blog-main.webp" alt="Majestic Sea of Clouds in Rizal">
+            <h2>Witness the Majestic Sea of Clouds in Rizal</h2>
+            <p>One of the most breathtaking experiences Rizal has to offer is witnessing a sea of clouds. Popular spots like Mt. Daraitan and Treasure Mountain in Tanay draw adventurers seeking this Ethereal view. Watching the sun rise over a blanket of white, fluffy clouds that fill the valleys is truly unforgettable. It's a surreal moment that makes the early morning hike or drive completely worth it, offering a sense of peace and awe above the world.</p>
+            <br>
+            <p>Beyond the visual spectacle, the experience of being above the clouds offers a unique sense of tranquility that is hard to find elsewhere. Most hikers start their journey as early as 2:00 AM to reach the summit just in time for the sunrise. The cool breeze of Tanay combined with the golden rays of the sun hitting the white mist creates a perfect backdrop for photography and meditation. It is a powerful reminder of Rizal's natural wealth and why it remains a top destination for those looking to reconnect with nature without traveling too far from the city.</p>
+            <br>
+            <p>If you're planning to catch the sea of clouds yourself, the best time to visit is during the colder months or right after a light rain, when the humidity is high. Don't forget to pack a light jacket, as the temperature in Tanay can drop significantly before dawn. Most importantly, practice the "Leave No Trace" principle to help preserve the natural beauty of Rizal's mountains for future generations. It’s not just about the perfect photo; it’s about respecting the environment that provides these magical views.</p>
+            <br>
+            <p>Ultimately, a trip to see the sea of clouds in Rizal is more than just a check on your travel bucket list; it is an invitation to slow down and appreciate the raw beauty of our country. Whether you are a solo traveler looking for soul-searching or a group of friends wanting a shared adventure, these mountains offer a sanctuary that stays with you long after you've descended. So, pack your bags, prepare your camera, and come experience the literal high that only the peaks of Rizal can provide. Your next great story is waiting just above the clouds.</p>
+
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+                
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Mountain Climbing & Hiking</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Waterfalls & Nature Parks</span>
+                <span>8</span>
+            </div>
+            <div>
+                <span>Art Museums & Galleries</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Local Food & Delicacies</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Resorts & Staycations</span>
+                <span>7</span>
+            </div>
+            <div>
+                <span>Souvenirs & Pasalubong</span>
+                <span>14</span>
+            </div>
+            <div>
+                <span>Historic Churches & Pilgrimage</span>
+                <span>9</span>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+
+
+
+<!-------- Footer -------->
+
+<section class="footer">
+    <h4>About Rizal Province</h4>
+    <p>Discover the hidden gems of Rizal, from breathtaking mountain peaks to relaxing hanging gardens. <br> We are dedicated to showcasing the natural beauty and rich culture of our province to the world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by your Name</p>
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-280px";
+     }
+
+</script>
+
+</body>
+</html>

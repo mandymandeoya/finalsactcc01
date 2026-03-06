@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Rizal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Rizal Province</h1>
+
+    </section>
+
+    <!------------ about rizal province page ------------>
+
+    <section class="about-us">
+        <div class="about-col">
+            <h1>The Cradle of Philippine Art and Nature</h1>
+            <p>Rizal Province is a mountain of treasures waiting to be discovered. From the majestic views of the Sierra Madre to the vibrant art galleries of Angono, our province offers a quick escape from the busy life of the city. Experience the perfect blend of adventure and culture in one of the most scenic places in the Philippines.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE TANAY</a>
+        </div>
+        <div class="about-col">
+            <img src="images/aboutrizalpage2.jpg" alt="Scenic mountain view of Rizal Province">
+        </div>
+    </section>
+  
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+<!-------- Footer -------->
+
+<section class="footer">
+    <h4>About Rizal Province</h4>
+    <p>Discover the hidden gems of Rizal, from breathtaking mountain peaks to relaxing hanging gardens. <br> We are dedicated to showcasing the natural beauty and rich culture of our province to the world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by your Name</p>
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-280px";
+     }
+
+</script>
+
+</body>
+</html>

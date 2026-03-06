@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Rizal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="destinations.html">DESTINATIONS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Top Destinations</h1>
+
+    </section>
+
+<!------------ destinations ------------>
+
+  <section class="destinations">
+        <h1>Top Spots in Rizal</h1>
+        <p>Explore the beauty, culture, and nature of our very own province.</p>
+
+        <div class="row">
+            <div class="destinations-col">
+                <h3>Antipolo Church</h3>
+                <p>The National Shrine of Our Lady of Peace and Good Voyage. A famous pilgrimage site where travelers pray for a safe journey.</p>
+            </div>
+            <div class="destinations-col">
+                <h3>Pinto Art Museum</h3>
+                <p>Located in Antipolo, this open-air museum features stunning Mediterranean-inspired architecture and contemporary Philippine art.</p>
+            </div>
+            <div class="destinations-col">
+                <h3>Mount Daraitan</h3>
+                <p>A favorite for hikers in Tanay, offering a majestic view of the Sierra Madre mountains and the crystal-clear Tinipak River.</p>
+            </div>
+        </div>
+    </section>
+
+
+<!------------ facilities ------------>
+
+<section class="facilities">
+    <h1>Rizal's Best Amenities</h1>
+    <p>Experience the finest hospitality and nature Rizal has to offer.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/resort.jpg" alt="Luljetta's Hanging Gardens Spa and Resort">
+            <div class="layer">
+               <h3>Luljetta's Hanging Gardens</h3>
+            </div>
+        </div>
+        <div class="facilities-col">
+            <img src="images/adventure.jpg" alt="Sea of clouds view at Treasure Mountain">
+            <div class="layer">
+               <h3>Treasure Mountain</h3>
+            </div>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafe.jpg" alt="Interior view of Burrow Café in Rizal">
+            <div class="layer">
+               <h3>Burrow Café</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    
+
+
+
+<!-------- Footer -------->
+
+<section class="footer">
+    <h4>About Rizal Province</h4>
+    <p>Discover the hidden gems of Rizal, from breathtaking mountain peaks to relaxing hanging gardens. <br> We are dedicated to showcasing the natural beauty and rich culture of our province to the world.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i> by your Name</p>
+</section>
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu--------->
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-280px";
+     }
+
+</script>
+
+</body>
+</html>
